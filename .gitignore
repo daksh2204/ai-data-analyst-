@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Eval runs (the committed baseline is kept)
+backend/evals/results/*
+!backend/evals/results/offline-heuristic-planner-latest.md
+
+# Demo recording scratch
+scripts/.demo/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

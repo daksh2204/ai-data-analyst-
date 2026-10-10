@@ -1,0 +1,15 @@
+# Runtime dependencies (pinned to the versions the test suite runs against).
+fastapi==0.143.0
+uvicorn[standard]==0.53.0
+pydantic==2.13.5
+pydantic-settings==2.15.0
+python-multipart==0.0.32
+duckdb==1.5.6
+pandas==3.0.5
+numpy==2.5.3
+charset-normalizer==3.5.1
+markdown==3.10.3
+anthropic==1.13.0
+openai==3.28.0
+httpx==0.28.1
+httpx2==2.13.0

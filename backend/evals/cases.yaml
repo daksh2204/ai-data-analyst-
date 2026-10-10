@@ -1,0 +1,97 @@
+# Evaluation cases for the analyst agent, run against the bundled sample data.
+#
+# Expected values are never hard-coded: each check computes the ground truth with SQL at run
+# time, so the suite stays valid if the sample data is regenerated.
+#
+# Checks
+#   expect_text_sql    SQL returning one value; the answer must mention it (case-insensitive)
+#   expect_number_sql  SQL returning one number; the answer or a displayed table must contain it (±1.5%)
+#   expect_contains    literal strings the answer must contain
+#   expect_tools       tools the agent must have called successfully
+#   expect_artifacts   artifact kinds the answer must include (chart, table, anomalies, forecast, quality)
+#   expect_chart       chart types (at least one must be produced)
+#   code_returns_rows  the ```sql block in the answer must run and return this many rows
+#   after              id of a case to ask first, in the same session (tests conversation memory)
+
+- id: top_region
+  question: Which region generated the highest revenue?
+  expect_text_sql: SELECT region FROM sales_orders GROUP BY 1 ORDER BY SUM(revenue) DESC LIMIT 1
+  expect_number_sql: SELECT SUM(revenue) FROM sales_orders GROUP BY region ORDER BY 1 DESC LIMIT 1
+  expect_tools: [run_sql]
+  expect_artifacts: [chart]
+
+- id: monthly_trend
+  question: Show monthly sales trends.
+  expect_tools: [run_sql]
+  expect_chart: [line, area]
+
+- id: underperforming_products
+  question: Which products are underperforming?
+  expect_text_sql: |
+    WITH b AS (SELECT max(order_date) AS d FROM sales_orders),
+    g AS (
+      SELECT p.product_name,
+             SUM(CASE WHEN o.order_date > b.d - INTERVAL 12 MONTH THEN revenue ELSE 0 END) AS last_12m,
+             SUM(CASE WHEN o.order_date <= b.d - INTERVAL 12 MONTH THEN revenue ELSE 0 END) AS prior_12m
+      FROM sales_orders o JOIN products p USING (product_id), b
+      GROUP BY 1
+    )
+    SELECT product_name FROM g ORDER BY last_12m / NULLIF(prior_12m, 0) ASC LIMIT 1
+  expect_tools: [run_sql]
+
+- id: top_customers
+  question: What are the top five customers?
+  expect_text_sql: |
+    SELECT c.customer_name FROM sales_orders o JOIN customers c USING (customer_id)
+    GROUP BY 1 ORDER BY SUM(o.revenue) DESC LIMIT 1
+  expect_number_sql: |
+    SELECT SUM(o.revenue) FROM sales_orders o JOIN customers c USING (customer_id)
+    GROUP BY c.customer_name ORDER BY 1 DESC LIMIT 1
+  expect_tools: [run_sql]
+
+- id: sql_for_previous
+  after: top_customers
+  question: Generate SQL for this analysis.
+  expect_contains: ["```sql"]
+  code_returns_rows: 5
+
+- id: anomalies
+  question: Detect anomalies in the dataset.
+  expect_tools: [detect_anomalies]
+  expect_artifacts: [anomalies]
+  expect_contains: ["2024-11-29"]
+
+- id: targets
+  question: Which regions missed their revenue targets?
+  expect_text_sql: |
+    WITH a AS (SELECT region, date_trunc('month', order_date) AS m, SUM(revenue) AS actual FROM sales_orders GROUP BY 1, 2)
+    SELECT t.region FROM regional_targets t LEFT JOIN a ON a.region = t.region AND a.m = date_trunc('month', t.month)
+    GROUP BY 1 ORDER BY SUM(COALESCE(a.actual, 0)) / SUM(t.revenue_target) ASC LIMIT 1
+  expect_tools: [run_sql]
+
+- id: forecast
+  question: Forecast revenue for the next 6 months.
+  expect_tools: [forecast]
+  expect_artifacts: [forecast]
+
+- id: category_join
+  question: Show revenue by product category.
+  expect_text_sql: |
+    SELECT p.category FROM sales_orders o JOIN products p USING (product_id) GROUP BY 1 ORDER BY SUM(o.revenue) DESC LIMIT 1
+  expect_tools: [run_sql]
+
+- id: data_quality
+  question: Are there any data quality problems I should know about?
+  expect_tools: [profile_table]
+  expect_contains: ["duplicate"]
+
+- id: distinct_customers
+  question: How many distinct customers placed orders?
+  expect_number_sql: SELECT COUNT(DISTINCT customer_id) FROM sales_orders
+  expect_tools: [run_sql]
+
+- id: follow_up_by_month
+  after: top_region
+  question: Now break that down by month.
+  expect_tools: [run_sql]
+  expect_chart: [line, area, stacked_bar, grouped_bar]

@@ -1,0 +1,116 @@
+/* Design tokens. Light is the default; dark is a separately stepped set, selected by the
+   OS setting unless the viewer picks a theme (data-theme on <html>). */
+:root {
+  color-scheme: light;
+  --paper: #f3f5f6;
+  --sidebar: #eaeef0;
+  --surface: #ffffff;
+  --surface-2: #f7f9fa;
+  --ink: #15212b;
+  --ink-2: #44525d;
+  --ink-3: #6c7a84;
+  --rule: #d9e0e5;
+  --rule-strong: #c4cdd4;
+  --accent: #0e6b5c;
+  --accent-hover: #0b5a4d;
+  --accent-ink: #ffffff;
+  --accent-soft: #e2f0ec;
+  --accent-line: #8cc5b7;
+  --focus: #1f7a6a;
+  --code-bg: #0f1b24;
+  --code-ink: #dbe4ea;
+  --good: #0c8a0c;
+  --good-soft: #e3f4e3;
+  --warning: #9a6400;
+  --warning-mark: #fab219;
+  --warning-soft: #fdf3dc;
+  --critical: #b52f2f;
+  --critical-mark: #d03b3b;
+  --critical-soft: #fbe7e7;
+  --info: #44525d;
+  --info-soft: #eceff2;
+  --shadow-pop: 0 8px 28px rgba(16, 33, 43, 0.14);
+
+  --font: "Instrument Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+  --fs-xs: 12px;
+  --fs-sm: 13px;
+  --fs-md: 14px;
+  --fs-body: 15px;
+  --fs-lg: 17px;
+  --fs-xl: 20px;
+  --fs-2xl: 24px;
+  --fs-3xl: 32px;
+
+  --r-sm: 6px;
+  --r-md: 8px;
+  --r-lg: 12px;
+  --sidebar-w: 276px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #0d151b;
+    --sidebar: #0a1116;
+    --surface: #141e26;
+    --surface-2: #18242d;
+    --ink: #e3eaef;
+    --ink-2: #b2bfc8;
+    --ink-3: #85939e;
+    --rule: #23313b;
+    --rule-strong: #2f404c;
+    --accent: #3fb59a;
+    --accent-hover: #5cc7ae;
+    --accent-ink: #062a22;
+    --accent-soft: #12302a;
+    --accent-line: #2a6e5f;
+    --focus: #5cc7ae;
+    --code-bg: #0a1218;
+    --code-ink: #d5e0e7;
+    --good: #46c246;
+    --good-soft: #10291a;
+    --warning: #f5c04a;
+    --warning-mark: #fab219;
+    --warning-soft: #2e2511;
+    --critical: #f07a7a;
+    --critical-mark: #d03b3b;
+    --critical-soft: #331718;
+    --info: #b2bfc8;
+    --info-soft: #1d2a33;
+    --shadow-pop: 0 10px 30px rgba(0, 0, 0, 0.45);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #0d151b;
+  --sidebar: #0a1116;
+  --surface: #141e26;
+  --surface-2: #18242d;
+  --ink: #e3eaef;
+  --ink-2: #b2bfc8;
+  --ink-3: #85939e;
+  --rule: #23313b;
+  --rule-strong: #2f404c;
+  --accent: #3fb59a;
+  --accent-hover: #5cc7ae;
+  --accent-ink: #062a22;
+  --accent-soft: #12302a;
+  --accent-line: #2a6e5f;
+  --focus: #5cc7ae;
+  --code-bg: #0a1218;
+  --code-ink: #d5e0e7;
+  --good: #46c246;
+  --good-soft: #10291a;
+  --warning: #f5c04a;
+  --warning-mark: #fab219;
+  --warning-soft: #2e2511;
+  --critical: #f07a7a;
+  --critical-mark: #d03b3b;
+  --critical-soft: #331718;
+  --info: #b2bfc8;
+  --info-soft: #1d2a33;
+  --shadow-pop: 0 10px 30px rgba(0, 0, 0, 0.45);
+}

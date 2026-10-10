@@ -1,0 +1,13 @@
+Employee ID, Full Name ,Department,Salary,Start Date,Bonus %,Rating,Rating
+E001,Ana Lopez,Sales,"$72,500.00",2021-03-15,10%,4.5,A
+E002,Ben Carter,Engineering,"$98,000",15/07/2020,12%,4.1,B
+E003,  Chen Wei ,Engineering,N/A,2019-11-01,,3.9,B
+E004,Dara Singh,Marketing,"$64,250.50",03/02/2022,8%,,C
+,,,,,,,
+E005,Eli Brooks,Sales,"$71,000",2022-08-30,9%,4.8,A
+E005,Eli Brooks,Sales,"$71,000",2022-08-30,9%,4.8,A
+E006,Farah Khan,HR,"$58,900",2018-01-09,5%,3.2,C
+E007,Gus Moreno,Engineering,"$1,250,000",2023-05-22,15%,4.0,B
+E008,Hiro Tanaka,engineering,"$101,500",2020-10-12,12%,4.3,A
+E009,Isla Novak,Sales,"-$5,000",2024-01-08,7%,2.9,D
+E010,Jon Petrov,Marketing,"$66,800",unknown,8%,3.7,B

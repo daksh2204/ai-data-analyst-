@@ -1,0 +1,31 @@
+product_id,product_name,category,list_price,unit_cost,launch_date
+P001,UltraBook Pro 14,Electronics,1299.0,935.28,2019-05-05
+P002,UltraBook Air 13,Electronics,999.0,699.3,2021-12-19
+P003,"4K Monitor 27""",Electronics,429.0,265.98,2021-07-05
+P004,"Curved Monitor 34""",Electronics,649.0,415.36,2020-09-06
+P005,Wireless Earbuds X,Electronics,149.0,67.05,2020-08-29
+P006,Noise-Cancel Headset,Electronics,249.0,124.5,2022-04-17
+P007,DVD Writer X2,Electronics,59.0,32.45,2019-05-01
+P008,Ergo Office Chair,Furniture,389.0,225.62,2021-09-03
+P009,Standing Desk Duo,Furniture,699.0,419.4,2019-10-10
+P010,Meeting Table 8-Seat,Furniture,1490.0,968.5,2019-05-12
+P011,Filing Cabinet Steel,Furniture,219.0,113.88,2021-01-07
+P012,Bookshelf Oak,Furniture,179.0,89.5,2022-09-27
+P013,Copy Paper A4 (Box),Office Supplies,39.0,15.6,2021-10-27
+P014,Gel Pens (24 pk),Office Supplies,14.0,4.9,2021-12-01
+P015,Whiteboard 6ft,Office Supplies,129.0,58.05,2021-10-01
+P016,Label Printer LX,Office Supplies,99.0,54.45,2022-01-05
+P017,Fax Machine Classic,Office Supplies,189.0,113.4,2020-12-19
+P018,Desk Organizer Set,Office Supplies,34.0,12.92,2019-06-29
+P019,Cloud Backup (1yr),Software,119.0,17.85,2022-03-21
+P020,Security Suite (1yr),Software,89.0,10.68,2020-09-22
+P021,Office Suite License,Software,249.0,44.82,2020-12-01
+P022,Design Studio Pro,Software,599.0,119.8,2020-06-03
+P023,Legacy CRM Desktop,Software,399.0,99.75,2019-09-13
+P024,Wireless Mouse M3,Accessories,39.0,15.6,2022-07-21
+P025,Mechanical Keyboard K8,Accessories,119.0,57.12,2021-12-30
+P026,USB-C Dock 12-in-1,Accessories,179.0,89.5,2021-06-20
+P027,"Laptop Sleeve 14""",Accessories,29.0,10.15,2020-07-17
+P028,Wi-Fi 6 Router,Networking,199.0,109.45,2022-02-25
+P029,Mesh Wi-Fi Kit (3),Networking,349.0,202.42,2021-02-02
+P030,24-Port Switch,Networking,459.0,275.4,2020-09-12

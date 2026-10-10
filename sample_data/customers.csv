@@ -1,0 +1,321 @@
+customer_id,customer_name,segment,region,country,city,signup_date
+C0001,Blue Works PLC,SMB,East,UK,London,2021-02-08
+C0002,Priya Taylor,Consumer,North,USA,Chicago,2021-10-12
+C0003,Aisha Nguyen,Consumer,West,USA,Los Angeles,2021-12-27
+C0004,Zenith Capital Inc,SMB,South,USA,Austin,2023-11-13
+C0005,Maple Capital Ltd,SMB,North,Canada,Toronto,2021-11-06
+C0006,Orion Retail PLC,SMB,West,USA,San Francisco,2021-09-30
+C0007,Liam Lopez,Consumer,South,USA,Austin,2023-04-30
+C0008,Fatima Chen,Consumer,North,USA,Minneapolis,2022-09-23
+C0009,Apex Capital Co,Enterprise,West,USA,Los Angeles,2023-02-13
+C0010,Zara Nguyen,Consumer,South,USA,Atlanta,2022-01-08
+C0011,Lumen Retail Co,Enterprise,West,USA,Seattle,2021-11-18
+C0012,Quartz Energy LLC,SMB,South,USA,Atlanta,2020-05-12
+C0013,Juniper Systems PLC,SMB,West,USA,Seattle,2020-11-09
+C0014,Granite Works Ltd,SMB,Central,USA,Denver,2023-06-03
+C0015,Delta Energy LLC,SMB,South,USA,Austin,2023-02-18
+C0016,Omar Johnson,Consumer,North,USA,Chicago,2020-08-31
+C0017,Summit Retail LLC,Enterprise,West,USA,Los Angeles,2022-11-12
+C0018,Maple Retail LLC,SMB,West,USA,San Francisco,2021-10-13
+C0019,Quartz Media Inc,SMB,North,USA,Minneapolis,2023-11-02
+C0020,Juniper Studios LLC,Enterprise,Central,USA,Denver,2022-10-18
+C0021,Unity Health Co,SMB,Central,USA,Denver,2023-02-25
+C0022,Lumen Studios Ltd,SMB,West,USA,Seattle,2021-10-27
+C0023,Pioneer Energy Ltd,SMB,North,USA,Minneapolis,2021-11-07
+C0024,Chloe Silva,Consumer,South,USA,Miami,2021-03-26
+C0025,Quartz Logistics Co,SMB,East,USA,Boston,2021-08-30
+C0026,Iris Media Ltd,Enterprise,East,USA,New York,2022-09-16
+C0027,Harbor Studios PLC,SMB,West,USA,San Francisco,2022-04-28
+C0028,Apex Dynamics PLC,SMB,East,USA,New York,2021-09-02
+C0029,Fatima Nguyen,Consumer,West,USA,Seattle,2022-09-06
+C0030,Ethan Nguyen,Consumer,East,USA,Boston,2023-03-25
+C0031,Willow Systems Inc,SMB,East,USA,New York,2020-02-01
+C0032,Jordan Khan,Consumer,Central,USA,Kansas City,2022-03-19
+C0033,Harbor Health Co,Enterprise,South,USA,Austin,2022-12-02
+C0034,Lucas Ali,Consumer,West,USA,Los Angeles,2023-11-24
+C0035,Orion Partners Inc,Enterprise,East,USA,New York,2023-04-26
+C0036,Hana Singh,Consumer,North,Canada,Toronto,2021-02-28
+C0037,Atlas Dynamics Ltd,SMB,North,USA,Minneapolis,2022-02-17
+C0038,Delta Studios Ltd,SMB,Central,USA,Denver,2022-12-28
+C0039,Ethan Nguyen II,Consumer,Central,USA,Denver,2021-04-06
+C0040,Aisha Ali,Consumer,South,USA,Atlanta,2020-05-17
+C0041,Ravi Taylor,Consumer,North,Canada,Toronto,2020-12-17
+C0042,Delta Capital Ltd,Enterprise,South,USA,Miami,2021-06-20
+C0043,Fatima Khan,Consumer,West,USA,Seattle,2023-12-28
+C0044,Noah Garcia,Consumer,East,UK,London,2023-09-26
+C0045,Apex Retail PLC,SMB,West,USA,San Francisco,2020-06-26
+C0046,Pioneer Systems Ltd,SMB,South,USA,Miami,2023-06-15
+C0047,Omar Garcia,Consumer,South,USA,Miami,2021-09-25
+C0048,Hana Khan,Consumer,North,Canada,Toronto,2020-07-12
+C0049,Ethan Khan,Consumer,Central,USA,Kansas City,2023-11-03
+C0050,Delta Media PLC,Enterprise,East,UK,London,2020-06-03
+C0051,Beacon Dynamics LLC,Enterprise,North,Canada,Toronto,2020-09-21
+C0052,Lucas Lopez,Consumer,East,UK,London,2023-05-21
+C0053,Granite Capital LLC,Enterprise,South,USA,Austin,2020-12-05
+C0054,Willow Capital Co,SMB,East,UK,London,2021-02-27
+C0055,Cedar Media PLC,SMB,North,USA,Chicago,2023-06-20
+C0056,Granite Group Co,SMB,North,Canada,Toronto,2023-05-12
+C0057,Maple Energy Inc,Enterprise,West,USA,Los Angeles,2020-08-01
+C0058,Jordan Ali,Consumer,North,USA,Minneapolis,2023-09-06
+C0059,Delta Systems Ltd,SMB,North,USA,Chicago,2022-02-27
+C0060,Vertex Analytics LLC,Enterprise,West,USA,San Francisco,2022-05-13
+C0061,Liam Taylor,Consumer,North,USA,Minneapolis,2022-01-06
+C0062,Alex Nguyen,Consumer,Central,USA,Kansas City,2020-09-21
+C0063,Orion Group LLC,SMB,North,USA,Chicago,2021-02-16
+C0064,Zenith Logistics Ltd,SMB,East,USA,New York,2023-05-01
+C0065,Cedar Works PLC,Enterprise,Central,USA,Dallas,2023-03-15
+C0066,Zara Lopez,Consumer,South,USA,Miami,2022-07-05
+C0067,Omar Brown,Consumer,West,USA,Seattle,2021-04-16
+C0068,Emma Silva,Consumer,East,USA,Boston,2022-09-28
+C0069,Lumen Foods Ltd,SMB,West,USA,Seattle,2021-08-31
+C0070,Juniper Capital Inc,SMB,North,USA,Chicago,2021-09-25
+C0071,Emma Taylor,Consumer,North,USA,Chicago,2022-09-06
+C0072,Lumen Energy PLC,SMB,North,USA,Minneapolis,2023-05-23
+C0073,Ethan Lopez,Consumer,South,USA,Atlanta,2022-07-13
+C0074,Falcon Energy Co,SMB,South,USA,Austin,2022-01-04
+C0075,Quartz Logistics Co II,Enterprise,East,UK,London,2022-11-25
+C0076,Delta Group PLC,Enterprise,Central,USA,Dallas,2020-09-04
+C0077,Beacon Capital PLC,SMB,South,USA,Miami,2023-10-13
+C0078,Cedar Foods Co,SMB,East,USA,New York,2020-09-01
+C0079,Maple Systems Co,SMB,East,USA,New York,2022-02-02
+C0080,Sofia Chen,Consumer,South,USA,Atlanta,2022-05-25
+C0081,Jordan Martin,Consumer,West,USA,Los Angeles,2020-05-08
+C0082,Emma Chen,Consumer,North,USA,Minneapolis,2022-09-06
+C0083,Titan Media Inc,SMB,Central,USA,Dallas,2023-03-07
+C0084,Atlas Dynamics Ltd II,SMB,West,USA,Seattle,2023-09-28
+C0085,Summit Dynamics LLC,SMB,North,Canada,Toronto,2023-10-17
+C0086,Jordan Silva,Consumer,East,UK,London,2022-08-09
+C0087,Noah Smith,Consumer,Central,USA,Dallas,2021-01-30
+C0088,Sofia Kim,Consumer,West,USA,Los Angeles,2020-02-17
+C0089,Summit Works LLC,Enterprise,East,UK,London,2021-03-07
+C0090,Harbor Foods PLC,SMB,East,USA,New York,2022-12-13
+C0091,Blue Studios Co,Enterprise,Central,USA,Dallas,2021-02-18
+C0092,Hana Patel,Consumer,West,USA,Seattle,2022-08-29
+C0093,Grace Wilson,Consumer,West,USA,Los Angeles,2020-02-12
+C0094,Unity Works Ltd,SMB,West,USA,Los Angeles,2020-01-22
+C0095,Alex Patel,Consumer,West,USA,Los Angeles,2020-08-16
+C0096,Hana Chen,Consumer,South,USA,Austin,2021-02-24
+C0097,Beacon Studios Ltd,Enterprise,South,USA,Miami,2023-02-01
+C0098,Alex Nguyen II,Consumer,South,USA,Atlanta,2020-10-21
+C0099,Titan Energy Co,Enterprise,East,USA,Boston,2020-05-05
+C0100,Blue Dynamics Ltd,SMB,South,USA,Miami,2021-01-30
+C0101,Lucas Brown,Consumer,Central,USA,Dallas,2020-03-20
+C0102,Grace Nguyen,Consumer,West,USA,San Francisco,2022-11-01
+C0103,Evergreen Partners PLC,SMB,West,USA,Los Angeles,2022-05-14
+C0104,Grace Kim,Consumer,East,USA,Boston,2021-10-13
+C0105,Noah Kim,Consumer,North,Canada,Toronto,2022-02-23
+C0106,Mei Garcia,Consumer,Central,USA,Dallas,2021-11-05
+C0107,Delta Logistics PLC,SMB,East,USA,Boston,2020-07-14
+C0108,Lumen Capital Co,SMB,North,USA,Chicago,2021-08-08
+C0109,Vertex Health PLC,SMB,North,USA,Chicago,2022-05-08
+C0110,Keystone Foods LLC,SMB,West,USA,San Francisco,2020-08-03
+C0111,Pioneer Retail LLC,SMB,East,USA,New York,2022-08-04
+C0112,Emma Johnson,Consumer,North,Canada,Toronto,2022-03-12
+C0113,Juniper Group LLC,SMB,East,USA,Boston,2023-03-26
+C0114,Grace Brown,Consumer,Central,USA,Dallas,2022-12-06
+C0115,Ethan Wilson,Consumer,North,USA,Chicago,2021-07-14
+C0116,Willow Works PLC,Enterprise,West,USA,Seattle,2020-03-22
+C0117,Evergreen Retail Inc,SMB,North,USA,Chicago,2020-04-07
+C0118,Summit Works LLC II,Enterprise,South,USA,Miami,2021-06-27
+C0119,Delta Foods Inc,SMB,East,UK,London,2022-01-02
+C0120,Noah Khan,Consumer,South,USA,Miami,2023-01-30
+C0121,Ravi Singh,Consumer,North,USA,Minneapolis,2021-05-02
+C0122,Maple Dynamics Co,SMB,East,USA,New York,2020-08-30
+C0123,Zara Chen,Consumer,Central,USA,Dallas,2023-05-10
+C0124,Noah Wilson,Consumer,West,USA,Seattle,2021-07-27
+C0125,Lumen Foods LLC,Enterprise,South,USA,Austin,2023-09-03
+C0126,Atlas Analytics Co,SMB,Central,USA,Denver,2020-12-05
+C0127,Pioneer Retail LLC II,SMB,East,UK,London,2020-01-21
+C0128,Willow Media LLC,SMB,Central,USA,Denver,2022-08-05
+C0129,Priya Martin,Consumer,South,USA,Atlanta,2021-06-19
+C0130,Vertex Labs LLC,SMB,North,USA,Minneapolis,2022-02-14
+C0131,Noah Ali,Consumer,East,UK,London,2021-03-21
+C0132,Zara Nguyen II,Consumer,North,USA,Chicago,2023-05-23
+C0133,Beacon Studios Co,Enterprise,North,USA,Chicago,2022-07-10
+C0134,Evergreen Health Ltd,SMB,North,Canada,Toronto,2022-06-06
+C0135,Delta Energy LLC II,SMB,North,USA,Minneapolis,2020-01-11
+C0136,Quartz Retail PLC,SMB,South,USA,Atlanta,2023-03-18
+C0137,Quartz Studios LLC,SMB,South,USA,Atlanta,2022-11-18
+C0138,Grace Smith,Consumer,South,USA,Atlanta,2020-06-15
+C0139,Zara Taylor,Consumer,East,USA,Boston,2022-08-12
+C0140,Fatima Wilson,Consumer,Central,USA,Denver,2022-12-07
+C0141,Jordan Khan II,Consumer,North,Canada,Toronto,2020-02-29
+C0142,Hana Wilson,Consumer,East,UK,London,2021-11-09
+C0143,Emma Singh,Consumer,North,Canada,Toronto,2020-05-03
+C0144,Atlas Systems PLC,SMB,South,USA,Austin,2020-12-14
+C0145,Juniper Logistics PLC,SMB,West,USA,San Francisco,2022-09-12
+C0146,Grace Martin,Consumer,South,USA,Austin,2022-12-15
+C0147,Sam Smith,Consumer,West,USA,Los Angeles,2022-06-26
+C0148,Ethan Khan II,Consumer,West,USA,Los Angeles,2022-09-15
+C0149,Zenith Media Co,Enterprise,North,USA,Minneapolis,2021-01-06
+C0150,Emma Wilson,Consumer,North,Canada,Toronto,2023-08-10
+C0151,Cedar Labs LLC,SMB,North,Canada,Toronto,2023-07-18
+C0152,Iris Systems Co,SMB,West,USA,Los Angeles,2021-09-12
+C0153,Emma Silva II,Consumer,North,USA,Minneapolis,2022-02-18
+C0154,Willow Retail Co,SMB,Central,USA,Denver,2022-05-19
+C0155,Maple Partners Ltd,SMB,Central,USA,Denver,2020-05-30
+C0156,Orion Analytics Inc,Enterprise,West,USA,Seattle,2021-10-23
+C0157,Noah Ali II,Consumer,North,USA,Chicago,2023-11-01
+C0158,Fatima Johnson,Consumer,East,UK,London,2023-08-02
+C0159,Zenith Labs LLC,SMB,North,USA,Minneapolis,2023-12-07
+C0160,Apex Labs PLC,SMB,East,UK,London,2020-12-18
+C0161,Willow Analytics Inc,SMB,West,USA,Seattle,2020-03-29
+C0162,Lucas Nguyen,Consumer,South,USA,Atlanta,2023-06-11
+C0163,Fatima Wilson II,Consumer,South,USA,Atlanta,2022-09-07
+C0164,Mei Brown,Consumer,West,USA,Los Angeles,2021-04-11
+C0165,Emma Brown,Consumer,Central,USA,Denver,2023-09-26
+C0166,Titan Logistics Inc,Enterprise,Central,USA,Kansas City,2020-02-29
+C0167,Lumen Health LLC,SMB,West,USA,Los Angeles,2023-02-27
+C0168,Quartz Partners Co,Enterprise,West,USA,San Francisco,2020-03-29
+C0169,Liam Nguyen,Consumer,West,USA,Los Angeles,2021-07-29
+C0170,Cedar Systems PLC,SMB,West,USA,San Francisco,2020-08-25
+C0171,Apex Labs LLC,SMB,East,USA,New York,2021-09-21
+C0172,Fatima Chen II,Consumer,Central,USA,Kansas City,2021-04-15
+C0173,Redwood Partners Inc,SMB,East,UK,London,2022-12-22
+C0174,Sofia Nguyen,Consumer,West,USA,San Francisco,2023-06-15
+C0175,Iris Dynamics Ltd,SMB,West,USA,Los Angeles,2023-09-03
+C0176,Apex Dynamics Ltd,Enterprise,West,USA,Los Angeles,2022-10-28
+C0177,Falcon Energy Co II,SMB,East,USA,Boston,2023-05-25
+C0178,Quartz Systems Ltd,Enterprise,Central,USA,Kansas City,2023-08-02
+C0179,Sam Ali,Consumer,North,USA,Minneapolis,2022-03-24
+C0180,Priya Johnson,Consumer,Central,USA,Kansas City,2022-12-07
+C0181,Cedar Media Inc,SMB,South,USA,Miami,2020-11-11
+C0182,Cedar Works Ltd,SMB,North,USA,Minneapolis,2022-12-10
+C0183,Redwood Retail PLC,Enterprise,West,USA,Seattle,2022-10-30
+C0184,Grace Garcia,Consumer,North,Canada,Toronto,2022-05-16
+C0185,Summit Analytics Ltd,Enterprise,West,USA,Los Angeles,2023-03-05
+C0186,Ravi Patel,Consumer,West,USA,Seattle,2022-03-18
+C0187,Orion Studios Ltd,SMB,West,USA,Los Angeles,2023-07-09
+C0188,Harbor Retail Ltd,SMB,East,USA,New York,2021-10-14
+C0189,Beacon Works Ltd,SMB,South,USA,Atlanta,2020-01-27
+C0190,Willow Works Inc,SMB,West,USA,Los Angeles,2022-06-23
+C0191,Titan Retail LLC,SMB,North,USA,Chicago,2022-11-25
+C0192,Beacon Dynamics LLC II,SMB,South,USA,Miami,2023-09-11
+C0193,Juniper Foods LLC,Enterprise,South,USA,Atlanta,2021-08-18
+C0194,Keystone Dynamics Co,Enterprise,Central,USA,Kansas City,2021-11-15
+C0195,Chloe Chen,Consumer,West,USA,San Francisco,2023-09-05
+C0196,Liam Nguyen II,Consumer,West,USA,Los Angeles,2023-07-08
+C0197,Noah Brown,Consumer,North,USA,Minneapolis,2020-05-09
+C0198,Ravi Kim,Consumer,South,USA,Miami,2021-10-10
+C0199,Grace Lopez,Consumer,Central,USA,Denver,2022-01-04
+C0200,Lumen Analytics Inc,SMB,South,USA,Austin,2023-11-30
+C0201,Zenith Media Inc,SMB,South,USA,Miami,2022-07-03
+C0202,Aisha Silva,Consumer,East,USA,New York,2020-01-15
+C0203,Priya Chen,Consumer,East,USA,Boston,2021-05-08
+C0204,Iris Dynamics Inc,SMB,West,USA,Seattle,2022-09-26
+C0205,Granite Dynamics Ltd,SMB,Central,USA,Dallas,2021-11-21
+C0206,Sofia Chen II,Consumer,North,USA,Minneapolis,2023-11-25
+C0207,Lumen Health Ltd,SMB,East,USA,New York,2020-03-06
+C0208,Quartz Retail LLC,SMB,Central,USA,Denver,2023-07-14
+C0209,Iris Capital Inc,SMB,North,Canada,Toronto,2023-07-03
+C0210,Hana Johnson,Consumer,Central,USA,Kansas City,2023-10-23
+C0211,Harbor Health LLC,Enterprise,West,USA,Los Angeles,2021-09-12
+C0212,Noah Brown II,Consumer,East,USA,New York,2022-01-30
+C0213,Cedar Works Inc,SMB,West,USA,San Francisco,2022-05-02
+C0214,Aisha Wilson,Consumer,North,USA,Minneapolis,2021-08-14
+C0215,Sam Kim,Consumer,South,USA,Austin,2023-10-06
+C0216,Cedar Partners Inc,Enterprise,Central,USA,Dallas,2020-09-16
+C0217,Blue Systems Ltd,SMB,North,USA,Minneapolis,2020-12-24
+C0218,Grace Martin II,Consumer,Central,USA,Kansas City,2021-05-10
+C0219,Granite Labs Ltd,SMB,North,Canada,Toronto,2020-02-23
+C0220,Liam Brown,Consumer,South,USA,Miami,2021-02-16
+C0221,Vertex Systems Inc,SMB,East,USA,Boston,2020-07-11
+C0222,Maple Works PLC,Enterprise,Central,USA,Denver,2020-08-02
+C0223,Evergreen Health PLC,SMB,West,USA,San Francisco,2020-02-13
+C0224,Iris Studios Co,Enterprise,Central,USA,Denver,2020-04-14
+C0225,Redwood Dynamics PLC,SMB,East,USA,Boston,2023-12-14
+C0226,Sofia Wilson,Consumer,South,USA,Atlanta,2020-08-11
+C0227,Priya Ali,Consumer,North,USA,Chicago,2021-05-14
+C0228,Emma Singh II,Consumer,East,USA,New York,2023-03-04
+C0229,Lumen Labs Co,SMB,Central,USA,Kansas City,2023-01-05
+C0230,Grace Patel,Consumer,North,Canada,Toronto,2021-08-03
+C0231,Unity Media LLC,Enterprise,West,USA,Seattle,2021-07-27
+C0232,Arjun Martin,Consumer,North,USA,Chicago,2021-11-04
+C0233,Sofia Kim II,Consumer,East,USA,New York,2023-10-19
+C0234,Redwood Group PLC,SMB,West,USA,San Francisco,2022-05-02
+C0235,Titan Capital Inc,SMB,Central,USA,Denver,2023-12-19
+C0236,Harbor Partners PLC,SMB,East,USA,New York,2022-11-09
+C0237,Grace Brown II,Consumer,North,USA,Chicago,2020-08-06
+C0238,Iris Systems Ltd,SMB,Central,USA,Dallas,2022-08-02
+C0239,Lumen Health Ltd II,SMB,North,USA,Chicago,2023-04-22
+C0240,Arjun Singh,Consumer,East,USA,New York,2021-03-21
+C0241,Evergreen Capital PLC,SMB,West,USA,San Francisco,2023-06-10
+C0242,Delta Studios Inc,SMB,South,USA,Austin,2023-01-23
+C0243,Zenith Studios Co,SMB,South,USA,Austin,2020-10-22
+C0244,Atlas Energy Co,SMB,South,USA,Miami,2022-12-24
+C0245,Arjun Taylor,Consumer,North,Canada,Toronto,2022-01-28
+C0246,Ethan Silva,Consumer,West,USA,Seattle,2022-10-20
+C0247,Mei Ali,Consumer,East,UK,London,2023-05-22
+C0248,Summit Foods LLC,SMB,East,UK,London,2022-07-12
+C0249,Zenith Group PLC,SMB,North,USA,Chicago,2021-04-06
+C0250,Hana Lopez,Consumer,South,USA,Miami,2020-12-06
+C0251,Summit Health Co,SMB,East,UK,London,2022-07-30
+C0252,Pioneer Partners LLC,SMB,North,USA,Chicago,2021-02-22
+C0253,Zara Garcia,Consumer,Central,USA,Denver,2021-06-18
+C0254,Delta Works Inc,SMB,South,USA,Austin,2020-07-20
+C0255,Aisha Nguyen II,Consumer,West,USA,San Francisco,2023-12-28
+C0256,Keystone Systems Co,SMB,West,USA,San Francisco,2023-07-05
+C0257,Ravi Garcia,Consumer,West,USA,Los Angeles,2022-05-09
+C0258,Falcon Media LLC,SMB,Central,USA,Dallas,2020-06-12
+C0259,Noah Brown II II,Consumer,West,USA,San Francisco,2022-03-17
+C0260,Quartz Analytics PLC,SMB,South,USA,Miami,2020-02-04
+C0261,Redwood Retail Ltd,SMB,West,USA,Los Angeles,2023-11-26
+C0262,Lumen Health Ltd II II,SMB,East,USA,New York,2021-06-22
+C0263,Redwood Works PLC,SMB,South,USA,Miami,2023-04-13
+C0264,Titan Retail PLC,SMB,North,Canada,Toronto,2020-09-01
+C0265,Zara Ali,Consumer,West,USA,Seattle,2023-08-29
+C0266,Harbor Logistics LLC,SMB,East,USA,New York,2020-03-18
+C0267,Unity Logistics Ltd,Enterprise,North,USA,Minneapolis,2021-05-08
+C0268,Alex Garcia,Consumer,West,USA,Seattle,2020-04-05
+C0269,Sofia Wilson II,Consumer,East,UK,London,2020-03-04
+C0270,Pioneer Health Inc,SMB,South,USA,Austin,2023-01-03
+C0271,Maple Labs Inc,SMB,South,USA,Miami,2021-08-23
+C0272,Beacon Logistics Co,SMB,South,USA,Austin,2020-05-05
+C0273,Vertex Analytics Inc,SMB,West,USA,San Francisco,2022-10-17
+C0274,Evergreen Systems PLC,Enterprise,East,UK,London,2021-07-27
+C0275,Grace Nguyen II,Consumer,Central,USA,Dallas,2020-10-07
+C0276,Harbor Health Co II,SMB,East,UK,London,2020-01-10
+C0277,Juniper Retail LLC,SMB,South,USA,Atlanta,2020-02-08
+C0278,Maple Media Inc,Enterprise,East,USA,Boston,2021-02-25
+C0279,Liam Brown II,Consumer,South,USA,Atlanta,2020-08-18
+C0280,Evergreen Labs LLC,SMB,East,USA,Boston,2022-04-03
+C0281,Alex Patel II,Consumer,West,USA,Seattle,2020-11-05
+C0282,Mei Wilson,Consumer,East,UK,London,2023-07-23
+C0283,Atlas Foods Ltd,SMB,East,UK,London,2021-05-11
+C0284,Harbor Retail Ltd II,SMB,West,USA,San Francisco,2020-11-08
+C0285,Keystone Foods Ltd,Enterprise,West,USA,San Francisco,2020-04-23
+C0286,Liam Johnson,Consumer,North,Canada,Toronto,2020-12-22
+C0287,Atlas Media LLC,SMB,North,Canada,Toronto,2020-10-26
+C0288,Priya Lopez,Consumer,Central,USA,Dallas,2020-06-05
+C0289,Delta Dynamics PLC,Enterprise,East,USA,Boston,2023-11-06
+C0290,Jordan Taylor,Consumer,East,UK,London,2021-10-08
+C0291,Maple Group Ltd,SMB,North,Canada,Toronto,2022-04-22
+C0292,Hana Johnson II,Consumer,West,USA,Los Angeles,2021-12-29
+C0293,Juniper Works Inc,SMB,Central,USA,Dallas,2023-03-06
+C0294,Falcon Dynamics PLC,Enterprise,North,USA,Chicago,2020-05-30
+C0295,Aisha Singh,Consumer,East,USA,Boston,2021-08-19
+C0296,Atlas Works PLC,SMB,East,USA,Boston,2022-12-02
+C0297,Beacon Energy Inc,SMB,East,USA,Boston,2021-11-05
+C0298,Liam Taylor II,Consumer,East,USA,Boston,2021-05-19
+C0299,Evergreen Foods Co,SMB,West,USA,San Francisco,2023-11-14
+C0300,Titan Capital LLC,SMB,East,USA,Boston,2021-01-10
+C0301,Zara Smith,Consumer,Central,USA,Denver,2022-09-03
+C0302,Keystone Logistics PLC,Enterprise,Central,USA,Dallas,2023-09-07
+C0303,Atlas Retail PLC,Enterprise,West,USA,Seattle,2022-04-01
+C0304,Willow Health LLC,Enterprise,South,USA,Austin,2020-10-23
+C0305,Atlas Labs PLC,Enterprise,South,USA,Atlanta,2023-07-06
+C0306,Harbor Retail Ltd II II,SMB,East,USA,New York,2021-09-26
+C0307,Granite Group Ltd,SMB,East,UK,London,2023-11-07
+C0308,Zara Taylor II,Consumer,West,USA,Los Angeles,2023-07-06
+C0309,Vertex Foods LLC,SMB,West,USA,Seattle,2020-12-22
+C0310,Ravi Silva,Consumer,East,USA,Boston,2023-09-27
+C0311,Willow Capital Inc,SMB,West,USA,Seattle,2023-05-08
+C0312,Willow Analytics Ltd,SMB,North,USA,Minneapolis,2023-10-04
+C0313,Pioneer Dynamics Co,SMB,South,USA,Atlanta,2022-09-02
+C0314,Blue Energy LLC,SMB,East,USA,New York,2023-11-04
+C0315,Orion Dynamics LLC,SMB,West,USA,Seattle,2021-05-17
+C0316,Keystone Health PLC,Enterprise,Central,USA,Denver,2021-08-28
+C0317,Beacon Studios PLC,Enterprise,East,UK,London,2022-07-14
+C0318,Apex Health LLC,SMB,North,USA,Chicago,2021-06-23
+C0319,Sam Martin,Consumer,West,USA,Los Angeles,2022-03-06
+C0320,Liam Ali,Consumer,West,USA,San Francisco,2023-01-17

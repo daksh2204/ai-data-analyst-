@@ -1,0 +1,44 @@
+flowchart LR
+  subgraph Browser["Browser · React + TypeScript (Vite)"]
+    UI["Ask · Dashboard · Data<br/>Plotly charts, code, reasoning trace"]
+  end
+
+  subgraph API["FastAPI service (single container)"]
+    direction TB
+    R["REST + SSE routes<br/>auth · rate limit · request ids"]
+    ING["Ingestion<br/>encoding · delimiter · type inference<br/>validation · SQL-safe names"]
+    PROF["Profiling & quality<br/>roles · issues · score · fixes<br/>join-key detection"]
+    SESS[("Session store<br/>tables · results · history<br/>TTL + LRU")]
+    AG["Analyst agent<br/>tool-calling loop · streaming<br/>self-correction · memory compaction"]
+    subgraph TOOLS["Tools"]
+      direction TB
+      SQL["run_sql<br/>DuckDB, read-only guard, timeout"]
+      PD["run_pandas<br/>AST allow-list sandbox"]
+      CH["create_chart"]
+      AN["detect_anomalies<br/>robust z · rules · time series"]
+      FC["forecast<br/>Holt-Winters + backtest"]
+      PT["profile_table"]
+    end
+    CACHE["TTL caches<br/>answers · queries"]
+    OBS["Metrics + JSON logs<br/>/api/metrics (Prometheus)"]
+    DASH["Dashboard & suggestions<br/>(deterministic)"]
+    REP["Report export<br/>HTML · Markdown"]
+  end
+
+  subgraph LLM["LLM providers (pluggable)"]
+    ANT["Anthropic"]
+    OAI["OpenAI-compatible<br/>OpenAI · Gemini · Groq · OpenRouter · Ollama"]
+    OFF["Offline planner<br/>(no key / fallback)"]
+  end
+
+  UI -- "upload CSV" --> R
+  UI -- "question → SSE events" --> R
+  R --> ING --> PROF --> SESS
+  R --> AG
+  AG <--> LLM
+  AG --> TOOLS
+  TOOLS --> SESS
+  AG --> CACHE
+  R --> DASH
+  R --> REP
+  AG --> OBS

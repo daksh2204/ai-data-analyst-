@@ -1,0 +1,14 @@
+**/node_modules
+**/__pycache__
+**/.pytest_cache
+**/.ruff_cache
+**/*.pyc
+.venv
+.git
+.github
+.env
+frontend/dist
+frontend/tsconfig.tsbuildinfo
+backend/evals/results
+docs
+scripts/.demo
