@@ -66,7 +66,7 @@ The point of the project is the engineering around the model, not just a call to
 ### Option A: Docker (recommended)
 
 ```bash
-git clone <your-repo-url> ai-data-analyst && cd ai-data-analyst
+git clone https://github.com/daksh2204/ai-data-analyst-.git ai-data-analyst && cd ai-data-analyst
 cp .env.example .env          # add ONE API key (or leave empty for the offline engine)
 docker compose up --build
 ```
